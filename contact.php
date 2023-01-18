@@ -47,7 +47,7 @@ if (isset($_POST['submitform'])) {
 		<div class="row my-3">
 			<div class="col-lg-6">
 				<div class="text-center">
-					<img src="./assets/img/contact/contact.png" class="img-fluid" width="300" alt="">
+					<img src="./assets/images/contact/contact.png" class="img-fluid" width="300" alt="">
 				</div>
 			</div>
 			<div class="col-lg-6">
@@ -56,7 +56,7 @@ if (isset($_POST['submitform'])) {
 					<form method="POST" action="" enctype="multipart/form-data">
 						<div class="form-group">
 							<label for="fullName" class="text-primary fw-bold">Full Name</label>
-							<input type="text" name="fName" class="form-control" id="fullName" value="John Doe">
+							<input type="text" name="fName" class="form-control" id="fullName" placeholder="John Doe">
 						</div>
 
 						<div class="container p-0 my-3">
@@ -65,14 +65,14 @@ if (isset($_POST['submitform'])) {
 								<div class="col-lg-6 col-md-12 col-sm-12">
 									<div class="form-group ">
 										<label for="email" class="text-primary fw-bold">Email address</label>
-										<input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" value="name@domain.com">
+										<input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="name@domain.com">
 									</div>
 								</div>
 
 								<div class="col-lg-6 col-md-12 col-sm-12">
 									<div class="form-group ">
 										<label for="number" class="text-primary fw-bold">Phone Number</label>
-										<input type="number" name="phone" class="form-control" id="number" value="1234567890">
+										<input type="number" name="phone" class="form-control" id="number" placeholder="1234567890">
 									</div>
 								</div>
 							</div>
@@ -84,7 +84,7 @@ if (isset($_POST['submitform'])) {
 						</div>
 
 						<div class="text-center mt-3">
-							<button type="submit" name="submitform" class="btn fw-bold fw-bold w-100" style="background: #0F046F; color:#F4D6CC">Submit</button>
+							<button type="submit" name="submitform" class="btn fw-bold fw-bold w-100 text-white" style="background: #0F046F;">Submit</button>
 						</div>
 					</form>
 				</div>
@@ -97,23 +97,23 @@ if (isset($_POST['submitform'])) {
 
 					<div class="mx-2 border border-grey shadow px-3 py-2 rounded text-center w-100">
 						<i class="fas fa-signature fa-2x text-primary"></i>
-						<h4 class="text-secondary">Name : </h4>
+						<h4 class="text-dark">Name : </h4>
 						<p class="text-primary fw-bold">John Doe</p>
 					</div>
 					<div class="mx-2 border border-grey shadow px-3 py-2 rounded text-center w-100">
 						<i class="fas fa-envelope fa-2x text-primary"></i>
-						<h4 class="text-secondary">Email : </h4>
+						<h4 class="text-dark">Email : </h4>
 						<p class=""><a class="text-primary fw-bold" target="_blank" href="mailto: abc@example.com">john.doe@gmail.com</a></p>
 					</div>
 					<div class="mx-2 border border-grey shadow px-3 py-2 rounded text-center w-100">
 						<i class="fas fa-mobile-alt fa-2x text-primary"></i>
-						<h4 class="text-secondary">Call : </h4>
+						<h4 class="text-dark">Call : </h4>
 						<p class=""><a class="text-primary fw-bold" target="_blank" href="tel:+4733378901">+33 3214 6547</a></p>
 					</div>
 					<div class="mx-2 border border-grey shadow px-3 py-2 rounded text-center w-100">
 						<i class="fas fa-comment fa-2x text-primary"></i>
-						<h4 class="text-secondary">Chat : </h4>
-						<p class=""><a class="text-primary fw-bold" target="_blank" href="https://wa.me/+918879761416">+91 12345 67890</a></p>
+						<h4 class="text-dark">Chat : </h4>
+						<p class=""><a class="text-primary fw-bold" target="_blank" href="https://wa.me/+918879761416">+91 8879761416</a></p>
 					</div>
 
 

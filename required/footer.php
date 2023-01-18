@@ -95,6 +95,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <!-- OWL CAROUSEL 2 END (Ver 2.3.4) -->
 
+<!-- FANCY BOX START -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+<!-- FANCY BOX END -->
+
 </body>
 
 </html>

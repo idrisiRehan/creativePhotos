@@ -668,3 +668,18 @@ $(".toggle-password").click(function () {
 	}
 });
 // PASSWORD SHOW HIDE END
+
+// FANCY BOX GALLERY START
+$("data-fancybox='images'").fancybox({
+	buttons: [
+		"slideShow",
+		"share",
+		"zoom",
+		"fullScreen",
+		"close"
+	],
+	thumbs: {
+		autostart: true
+	}
+});
+// FANCY BOX GALLERY END

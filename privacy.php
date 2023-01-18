@@ -21,6 +21,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
+                <?php $run = $mysqli->query("SELECT `content` FROM `contents` WHERE `slug` = 'privacy-policy' AND `isDeleted` = '0'");
+                $row = $run->fetch_assoc();
+                echo $row['content'];
+                ?>
                 <div class="">
                     <p class="fw-bold fa-lg text-dark">Heading</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum voluptates reiciendis explicabo reprehenderit sapiente, suscipit amet nesciunt dolores, quod cumque ipsa magni ullam asperiores similique libero ut, nihil repellendus.</p>

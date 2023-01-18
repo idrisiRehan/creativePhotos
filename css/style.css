@@ -57,8 +57,8 @@ h2,
 h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-size: 18px;
-  color: #222222;
+  font-size: 2em;
+  color: #0F046F;
   margin: 0 0 5px;
   text-transform: uppercase;
 }
@@ -941,6 +941,9 @@ h2.title-about-page {
   text-align: center;
   margin-bottom: 40px;
   text-transform: uppercase;
+  color: #0f046f;
+  font-weight: 600;
+  font-size: 2em;
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5),
@@ -1479,10 +1482,10 @@ all and (min-device-pixel-ratio: 1.5) {
   align-items: center;
   height: 70vh;
 }
-.login-p-container>div{
+
+.login-p-container>div {
   background: #bdb5b5;
 }
-
 /* LOGIN END */
 
 /* EVENTS START */
