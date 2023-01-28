@@ -656,6 +656,35 @@ $(".sliderTemplates").owlCarousel({
 });
 // OWL CAROUSEL TEMPLATES END
 
+
+// OWL CAROUSEL TEMPLATES START
+$(".imageSlider").owlCarousel({
+	loop: true,
+	autoplay: false,
+	autoplayTimeout: 3000, //1000ms = 1s;
+	autoplayHoverPause: true,
+	dots: false,
+	nav: false,
+	responsiveClass: true,
+	responsive: {
+		0: {
+			items: 1,
+			loop: true
+		},
+		600: {
+			items: 1,
+			loop: true
+		},
+		1000: {
+			items: 1,
+			nav: false,
+			loop: true
+		},
+	}
+});
+// OWL CAROUSEL TEMPLATES END
+
+
 // PASSWORD SHOW HIDE START
 $(".toggle-password").click(function () {
 

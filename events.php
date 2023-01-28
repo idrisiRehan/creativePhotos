@@ -1,5 +1,6 @@
+<!-- HEADER START -->
 <?php require "./required/header.php" ?>
-
+<!-- HEADER END -->
 
 <section class="breadcrumb">
     <div class="container">
@@ -26,20 +27,22 @@
                 while ($row = $run->fetch_object()) {
             ?>
                     <div class="col-lg-3 col-md-4 col-sm-6 col-12 my-3">
-                        <div class="card h-100 text-white" style="background: #0F046F;">
+                        <!-- <a href="event-detail.php"> -->
+                        <div class="card h-100 w-100 text-white" role="button" onclick="location.href='event-detail.php'" style="background: #0F046F;">
                             <div class="hover-zoom event-card-img">
                                 <img src="assets/images/events/<?= $row->image ?>" class="w-100 h-100 rounded" alt="Image">
                             </div>
                             <div class="card-body bg-white">
                                 <h5 class="card-title text-dark fw-bold"><?= $row->name ?></h5>
                                 <p class="card-text text-dark">
-                                    <?= substr($row->description, 0, 250); ?>...
+                                    <?= substr($row->description, 0, 150); ?>...
                                 </p>
                             </div>
                             <div class="card-footer">
                                 <small class="text-white"><?= $row->modifiedOn ?></small>
                             </div>
                         </div>
+                        <!-- </a> -->
                     </div>
             <?php
                 }

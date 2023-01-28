@@ -69,9 +69,163 @@
                             <li class="nav-item px-1">
                                 <a class="nav-link text-white fw-bold" href="events.php">Recent Events</a>
                             </li>
-                            <li class="nav-item px-1">
-                                <a class="nav-link text-white fw-bold" href="album.php">Albums</a>
+                            <li class="nav-item px-1 d-flex">
+
+
+                                <!-- <div class="d-flex"> -->
+                                    <a class="nav-link text-white fw-bold" href="album.php">
+                                        Albums
+                                    </a>
+                                    <i class="fas fa-angle-down text-white fa-lg mt-3" id="album-dropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false"></i>
+                                <!-- </div> -->
+
+                                <div class="dropdown-menu mt-0 mx-auto px-3" aria-labelledby="album-dropdown" style="border-top-left-radius: 0;border-top-right-radius: 0;">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 mt-4 col-lg-4 mb-4 mb-lg-0">
+                                                <div class="row mb-4 flex-column text-center">
+                                                    <div class="col-12">
+                                                        <div class="text-center">
+                                                            <img src="assets/images/resource/about-img-1.jpg" width="65" class="img-fluid shadow-1-strong rounded-circle" alt="Dj" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 my-auto">
+                                                        <p class="" style="color: #F20487;">
+                                                            <strong>Engagement Shoot</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-4 flex-column text-center">
+                                                    <div class="col-12">
+                                                        <div class="text-center">
+                                                            <img src="assets/images/resource/about-img-1.jpg" width="65" class="img-fluid shadow-1-strong rounded-circle" alt="Dj" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 my-auto">
+                                                        <p class="" style="color: #F20487;">
+                                                            <strong>Baby Shower</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-4 flex-column text-center">
+                                                    <div class="col-12">
+                                                        <div class="text-center">
+                                                            <img src="assets/images/resource/about-img-1.jpg" width="65" class="img-fluid shadow-1-strong rounded-circle" alt="Dj" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 my-auto">
+                                                        <p class="" style="color: #F20487;">
+                                                            <strong>Wedding Shoot</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-4 flex-column text-center">
+                                                    <div class="col-12">
+                                                        <div class="text-center">
+                                                            <img src="assets/images/resource/about-img-1.jpg" width="65" class="img-fluid shadow-1-strong rounded-circle" alt="Dj" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 my-auto">
+                                                        <p class="" style="color: #F20487;">
+                                                            <strong>Baby Portfolio</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mt-4 col-lg-4 mb-4 mb-lg-0">
+                                                <div class="row mb-4 flex-column text-center">
+                                                    <div class="col-12">
+                                                        <div class="text-center">
+                                                            <img src="assets/images/resource/about-img-1.jpg" width="65" class="img-fluid shadow-1-strong rounded-circle" alt="Dj" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 my-auto">
+                                                        <p class="" style="color: #F20487;">
+                                                            <strong>Event Planner</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-4 flex-column text-center">
+                                                    <div class="col-12">
+                                                        <div class="text-center">
+                                                            <img src="assets/images/resource/about-img-1.jpg" width="65" class="img-fluid shadow-1-strong rounded-circle" alt="Dj" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 my-auto">
+                                                        <p class="" style="color: #F20487;">
+                                                            <strong>Birthday Party</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-4 flex-column text-center">
+                                                    <div class="col-12">
+                                                        <div class="text-center">
+                                                            <img src="assets/images/resource/about-img-1.jpg" width="65" class="img-fluid shadow-1-strong rounded-circle" alt="Dj" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 my-auto">
+                                                        <p class="" style="color: #F20487;">
+                                                            <strong>Pre-Wedding Photos</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-4 flex-column text-center">
+                                                    <div class="col-12">
+                                                        <div class="text-center">
+                                                            <img src="assets/images/resource/about-img-1.jpg" width="65" class="img-fluid shadow-1-strong rounded-circle" alt="Dj" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 my-auto">
+                                                        <p class="" style="color: #F20487;">
+                                                            <strong>Wedding Photos</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mt-4 col-lg-4 mb-4 mb-lg-0">
+                                                <div class="row mb-4 flex-column text-center">
+                                                    <div class="col-12">
+                                                        <div class="text-center">
+                                                            <img src="assets/images/resource/about-img-1.jpg" width="65" class="img-fluid shadow-1-strong rounded-circle" alt="Dj" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 my-auto">
+                                                        <p class="" style="color: #F20487;">
+                                                            <strong>Communian</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-4 flex-column text-center">
+                                                    <div class="col-12">
+                                                        <div class="text-center">
+                                                            <img src="assets/images/resource/about-img-1.jpg" width="65" class="img-fluid shadow-1-strong rounded-circle" alt="Dj" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 my-auto">
+                                                        <p class="" style="color: #F20487;">
+                                                            <strong>Munjhe</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-4 flex-column text-center">
+                                                    <div class="col-12">
+                                                        <div class="text-center">
+                                                            <img src="assets/images/resource/about-img-1.jpg" width="65" class="img-fluid shadow-1-strong rounded-circle" alt="Dj" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 my-auto">
+                                                        <p class="" style="color: #F20487;">
+                                                            <strong>Maternity Shoot</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </li>
+
                             <li class="nav-item px-1">
                                 <a class="nav-link text-white fw-bold" href="contact.php">Contact</a>
                             </li>

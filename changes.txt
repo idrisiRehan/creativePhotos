@@ -1,13 +1,12 @@
-1. New Categories & Sub-Categories Adding Feature where all categories & Sub-categories will be listed. ---
-2. Add floating WhatsApp button at right bottom which will open whatsapp. ----
-3. Add Mobile Number column in contact us page. ---
-4. Add small logo as a favicon and big logo as main logo on all pages. ---
+1. New Categories & Sub-Categories Adding Feature where all categories & Sub-categories will be listed. |-Done-|
+2. Add floating WhatsApp button at right bottom which will open whatsapp. |-Done-|
+3. Add Mobile Number column in contact us page. |-Done-|
+4. Add small logo as a favicon and big logo as main logo on all pages. |-Done-|
 5. New Page for Recent Events. This page will require a password to open. (Same password for all users). Here all recent
-events will be visibile. ---
-6. YouTube slider on home page. 4 videos link to be added from admin panel. ---
+events will be visibile. |-Done-|
+6. YouTube slider on home page. 4 videos link to be added from admin panel. |-Done-|
 
-
-Album Type (Categories & Sub-Categories) ---
+Album Type (Categories & Sub-Categories) |-Done-|
 1. Engagement Shoot
 2. Baby Shower
 3. Wedding Shoot
@@ -25,8 +24,25 @@ Album Type (Categories & Sub-Categories) ---
 10. Munjhe
 11. Maternity Shoot
 
-
-Tagline - We creates your happy memories. ---
+Tagline - We creates your happy memories. |-Done-|
 Social Links - Instagram, WhatsApp, YouTube 
-Color to be used - Blue (#0F046F), Unbleached Silk (#F4D6CC) ---
-Fonts - Source Sans Pro (Google Fonts) ---
+Color to be used - Blue (#0F046F), Unbleached Silk (#F4D6CC) |-Done-|
+Fonts - Source Sans Pro (Google Fonts) |-Done-|
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Changes (Afrid/ Saad)
+
+P) Improve Navbar Fonts and Navlinks ui. |-Done-|
+P) Add Slider Image on Home Page and make Vidoes as a new section. |-Done-|
+P) Recent Events login page shouldn't overlap on footer. |-Done-|
+P) Recent Events Cards should display limited description. Onclick open a modal/ new page to display full content. |-Done-|
+P) Make Album as Mega Menu in Navbar which must display categories. |-Done-|
+P) Album Page must show all images along with Sidebar displaying Sub-Categories. |-Done-|
+P) Contact Us Email Setup and Thank you genlog
+P) Index Page 2 sections add. |-Done-|
+
+Other Changes (Bilal)
+P) Social Links needed from client.
+P) Delete all dummy entries and add real entries.
+P) Terms & Conditions, Privacy Policy, About Us Content from ChatGPT

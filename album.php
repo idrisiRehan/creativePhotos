@@ -85,9 +85,10 @@
 						</div>
 				</div>
 			</div>
-			<!-- End gallery section -->
+		</div>
+		<!-- End gallery section -->
 
 
-			<!-- FOOTER START -->
-			<?php require "./required/footer.php" ?>
-			<!-- FOOTER END -->
+		<!-- FOOTER START -->
+		<?php require "./required/footer.php" ?>
+		<!-- FOOTER END -->

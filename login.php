@@ -6,7 +6,7 @@
 <section class="mt-3 pt-5">
     <div class="container">
         <div class="row d-flex justify-content-center">
-            <div class="col-lg-6 login-p-container">
+            <div class="col-lg-6 login-p-container ">
                 <div class="login-shadow rounded">
                     <div class="p-5 rounded text-center position-relative">
                         <div class="">

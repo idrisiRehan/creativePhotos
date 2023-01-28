@@ -133,10 +133,13 @@ input[type="number"]::-webkit-outer-spin-button {
  *------------------------------------------------- */
 
 .nav_active {
-  line-height: 1;
+  /* line-height: 1;
   font-weight: bold !important;
   font-size: 1em !important;
-  text-decoration: underline !important;
+  text-decoration: underline !important; */
+  background-color: #F4D6CC;
+  color: #0F046F !important;
+  border-radius: 5%;
 }
 
 .navbar {
@@ -1461,6 +1464,13 @@ all and (min-device-pixel-ratio: 1.5) {
 
 
 
+/* CAROUSEL IMAGE START */
+.imageSlider .card {
+  height: 700px;
+}
+
+/* CAROUSEL IMAGE END */
+
 /* WHATSAPP ICON START */
 .whatsapp-icon {
   position: fixed;
@@ -1480,12 +1490,14 @@ all and (min-device-pixel-ratio: 1.5) {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  /* height: 70vh; */
+  padding: 5em 0 5em 0;
 }
 
 .login-p-container>div {
   background: #bdb5b5;
 }
+
 /* LOGIN END */
 
 /* EVENTS START */
@@ -1501,7 +1513,8 @@ all and (min-device-pixel-ratio: 1.5) {
 
 /* BREADCRUMBS START */
 .breadcrumb {
-  background: url(https://equinoxx.in/images/Courses-Banner/photography.jpg);
+  background: url(../assets/images/home/breadcrumb.jpg);
+  /* background: url(https://equinoxx.in/images/Courses-Banner/photography.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -1549,3 +1562,20 @@ all and (min-device-pixel-ratio: 1.5) {
 }
 
 /* SHOW HIDE PASSWORD END */
+
+/* CTA START */
+.cta-index {
+  background: url(../assets/images/home/cta.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px)!important;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CTA END */
