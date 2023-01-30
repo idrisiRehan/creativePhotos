@@ -11,9 +11,7 @@
                     <h5 class="">Kreative Fotos</h5>
 
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                        aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                       We Create Your Happy Memories.
                     </p>
                 </div>
                 <!--Grid column-->

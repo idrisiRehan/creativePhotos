@@ -26,7 +26,8 @@
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col-12">
+					<div class="col-12" style="font-size: 22px;
+    text-align: justify;">
 						<?php $run = $mysqli->query("SELECT `content` FROM `contents` WHERE `title` = 'About us' AND `isDeleted` = '0'");
 						if ($run && $run->num_rows > 0) {
 							$about = $run->fetch_object()->content;
@@ -40,7 +41,7 @@
 		<!-- End about-me section2 -->
 
 		<!-- gallery-section -->
-		<section class="gallery-section mt-3">
+		<section class="gallery-section mt-5">
 			<div class="container">
 				<?php $sql = "SELECT * FROM `photos` WHERE `isDeleted` = '0' LIMIT 8";
 				$run = $mysqli->query($sql);
@@ -50,7 +51,7 @@
 					<div class="gallery-box iso-call col4">
 						<?php
 						while ($row = $run->fetch_object()) { ?>
-							
+
 
 
 							<div class="gallery-post">

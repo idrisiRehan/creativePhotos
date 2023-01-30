@@ -43,6 +43,6 @@ P) Contact Us Email Setup and Thank you genlog
 P) Index Page 2 sections add. |-Done-|
 
 Other Changes (Bilal)
-P) Social Links needed from client.
-P) Delete all dummy entries and add real entries.
-P) Terms & Conditions, Privacy Policy, About Us Content from ChatGPT
+P) Social Links needed from client. 
+P) Delete all dummy entries and add real entries. 
+P) Terms & Conditions, Privacy Policy, About Us Content from ChatGPT. 
